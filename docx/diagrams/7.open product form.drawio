@@ -1,0 +1,82 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Страница-1" id="EQJNAO2rTPfsAGUKoT0I">
+    <mxGraphModel dx="1414" dy="785" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="ZVa7H9WmukOm5eRpZMmE-1" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;" value="Каталог администратора" vertex="1">
+          <mxGeometry height="50" width="200" x="410" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ZVa7H9WmukOm5eRpZMmE-2" parent="1" style="rhombus;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;" value="Нажата «Добавить товар»?" vertex="1">
+          <mxGeometry height="80" width="220" x="400" y="120" as="geometry" />
+        </mxCell>
+        <mxCell id="ZVa7H9WmukOm5eRpZMmE-3" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;" value="Создать форму: ID не показывать" vertex="1">
+          <mxGeometry height="60" width="240" x="110" y="130" as="geometry" />
+        </mxCell>
+        <mxCell id="ZVa7H9WmukOm5eRpZMmE-4" parent="1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;" value="Выбрать товар в списке" vertex="1">
+          <mxGeometry height="50" width="220" x="400" y="240" as="geometry" />
+        </mxCell>
+        <mxCell id="ZVa7H9WmukOm5eRpZMmE-5" parent="1" style="rhombus;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;" value="Форма редактирования уже открыта?" vertex="1">
+          <mxGeometry height="80" width="260" x="380" y="330" as="geometry" />
+        </mxCell>
+        <mxCell id="ZVa7H9WmukOm5eRpZMmE-6" parent="1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;" value="Сообщение: можно открыть только одну форму" vertex="1">
+          <mxGeometry height="60" width="260" x="580" y="440" as="geometry" />
+        </mxCell>
+        <mxCell id="ZVa7H9WmukOm5eRpZMmE-7" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;" value="Загрузить данные товара; ID только для чтения" vertex="1">
+          <mxGeometry height="60" width="260" x="250" y="440" as="geometry" />
+        </mxCell>
+        <mxCell id="ZVa7H9WmukOm5eRpZMmE-8" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;" value="Открыть форму с полями товара" vertex="1">
+          <mxGeometry height="50" width="240" x="390" y="570" as="geometry" />
+        </mxCell>
+        <mxCell id="ZVa7H9WmukOm5eRpZMmE-9" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;" value="Перейти к проверке и сохранению" vertex="1">
+          <mxGeometry height="50" width="260" x="380" y="660" as="geometry" />
+        </mxCell>
+        <mxCell id="ZVa7H9WmukOm5eRpZMmE-10" edge="1" parent="1" source="ZVa7H9WmukOm5eRpZMmE-1" style="edgeStyle=orthogonalEdgeStyle;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="ZVa7H9WmukOm5eRpZMmE-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZVa7H9WmukOm5eRpZMmE-11" edge="1" parent="1" source="ZVa7H9WmukOm5eRpZMmE-2" style="edgeStyle=orthogonalEdgeStyle;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="ZVa7H9WmukOm5eRpZMmE-3" value="Да">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZVa7H9WmukOm5eRpZMmE-12" edge="1" parent="1" source="ZVa7H9WmukOm5eRpZMmE-3" style="edgeStyle=orthogonalEdgeStyle;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="ZVa7H9WmukOm5eRpZMmE-8">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="230" y="560" />
+              <mxPoint x="510" y="560" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZVa7H9WmukOm5eRpZMmE-13" edge="1" parent="1" source="ZVa7H9WmukOm5eRpZMmE-2" style="edgeStyle=orthogonalEdgeStyle;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="ZVa7H9WmukOm5eRpZMmE-4" value="Нет">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZVa7H9WmukOm5eRpZMmE-14" edge="1" parent="1" source="ZVa7H9WmukOm5eRpZMmE-4" style="edgeStyle=orthogonalEdgeStyle;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="ZVa7H9WmukOm5eRpZMmE-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZVa7H9WmukOm5eRpZMmE-15" edge="1" parent="1" source="ZVa7H9WmukOm5eRpZMmE-5" style="edgeStyle=orthogonalEdgeStyle;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="ZVa7H9WmukOm5eRpZMmE-6" value="Да">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZVa7H9WmukOm5eRpZMmE-16" edge="1" parent="1" source="ZVa7H9WmukOm5eRpZMmE-6" style="edgeStyle=orthogonalEdgeStyle;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="ZVa7H9WmukOm5eRpZMmE-9">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="710" y="640" />
+              <mxPoint x="510" y="640" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZVa7H9WmukOm5eRpZMmE-17" edge="1" parent="1" source="ZVa7H9WmukOm5eRpZMmE-5" style="edgeStyle=orthogonalEdgeStyle;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="ZVa7H9WmukOm5eRpZMmE-7" value="Нет">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="510" y="430" />
+              <mxPoint x="380" y="430" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZVa7H9WmukOm5eRpZMmE-18" edge="1" parent="1" source="ZVa7H9WmukOm5eRpZMmE-7" style="edgeStyle=orthogonalEdgeStyle;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="ZVa7H9WmukOm5eRpZMmE-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZVa7H9WmukOm5eRpZMmE-19" edge="1" parent="1" source="ZVa7H9WmukOm5eRpZMmE-8" style="edgeStyle=orthogonalEdgeStyle;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="ZVa7H9WmukOm5eRpZMmE-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

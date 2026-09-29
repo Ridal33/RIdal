@@ -1,0 +1,74 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Страница-1" id="R09q-yoZI4AumNo5QUYn">
+    <mxGraphModel dx="1414" dy="785" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="-COGvhMiNyy0scrZBPlM-1" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;" value="Форма товара" vertex="1">
+          <mxGeometry height="50" width="160" x="460" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="-COGvhMiNyy0scrZBPlM-2" parent="1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;" value="Выбрать файл изображения" vertex="1">
+          <mxGeometry height="50" width="220" x="430" y="120" as="geometry" />
+        </mxCell>
+        <mxCell id="-COGvhMiNyy0scrZBPlM-3" parent="1" style="rhombus;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;" value="Размер не больше 300×200?" vertex="1">
+          <mxGeometry height="80" width="240" x="420" y="210" as="geometry" />
+        </mxCell>
+        <mxCell id="-COGvhMiNyy0scrZBPlM-4" parent="1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;" value="Сообщить об ограничении" vertex="1">
+          <mxGeometry height="60" width="220" x="140" y="220" as="geometry" />
+        </mxCell>
+        <mxCell id="-COGvhMiNyy0scrZBPlM-5" parent="1" style="rhombus;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;" value="У товара уже есть фото?" vertex="1">
+          <mxGeometry height="80" width="220" x="430" y="330" as="geometry" />
+        </mxCell>
+        <mxCell id="-COGvhMiNyy0scrZBPlM-6" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;" value="Удалить старый файл" vertex="1">
+          <mxGeometry height="60" width="200" x="700" y="340" as="geometry" />
+        </mxCell>
+        <mxCell id="-COGvhMiNyy0scrZBPlM-7" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;" value="Скопировать новое фото в папку приложения" vertex="1">
+          <mxGeometry height="50" width="320" x="380" y="450" as="geometry" />
+        </mxCell>
+        <mxCell id="-COGvhMiNyy0scrZBPlM-8" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;" value="Сохранить путь к фото в БД" vertex="1">
+          <mxGeometry height="50" width="240" x="420" y="540" as="geometry" />
+        </mxCell>
+        <mxCell id="-COGvhMiNyy0scrZBPlM-9" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;" value="Показать новое изображение" vertex="1">
+          <mxGeometry height="50" width="240" x="420" y="630" as="geometry" />
+        </mxCell>
+        <mxCell id="-COGvhMiNyy0scrZBPlM-10" edge="1" parent="1" source="-COGvhMiNyy0scrZBPlM-1" style="edgeStyle=orthogonalEdgeStyle;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="-COGvhMiNyy0scrZBPlM-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-COGvhMiNyy0scrZBPlM-11" edge="1" parent="1" source="-COGvhMiNyy0scrZBPlM-2" style="edgeStyle=orthogonalEdgeStyle;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="-COGvhMiNyy0scrZBPlM-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-COGvhMiNyy0scrZBPlM-12" edge="1" parent="1" source="-COGvhMiNyy0scrZBPlM-3" style="edgeStyle=orthogonalEdgeStyle;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="-COGvhMiNyy0scrZBPlM-4" value="Нет">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-COGvhMiNyy0scrZBPlM-13" edge="1" parent="1" source="-COGvhMiNyy0scrZBPlM-4" style="edgeStyle=orthogonalEdgeStyle;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="-COGvhMiNyy0scrZBPlM-2">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="250" y="290" />
+              <mxPoint x="100" y="290" />
+              <mxPoint x="100" y="110" />
+              <mxPoint x="540" y="110" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-COGvhMiNyy0scrZBPlM-14" edge="1" parent="1" source="-COGvhMiNyy0scrZBPlM-3" style="edgeStyle=orthogonalEdgeStyle;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="-COGvhMiNyy0scrZBPlM-5" value="Да">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-COGvhMiNyy0scrZBPlM-15" edge="1" parent="1" source="-COGvhMiNyy0scrZBPlM-5" style="edgeStyle=orthogonalEdgeStyle;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="-COGvhMiNyy0scrZBPlM-6" value="Да">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-COGvhMiNyy0scrZBPlM-16" edge="1" parent="1" source="-COGvhMiNyy0scrZBPlM-6" style="edgeStyle=orthogonalEdgeStyle;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="-COGvhMiNyy0scrZBPlM-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-COGvhMiNyy0scrZBPlM-17" edge="1" parent="1" source="-COGvhMiNyy0scrZBPlM-5" style="edgeStyle=orthogonalEdgeStyle;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="-COGvhMiNyy0scrZBPlM-7" value="Нет">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-COGvhMiNyy0scrZBPlM-18" edge="1" parent="1" source="-COGvhMiNyy0scrZBPlM-7" style="edgeStyle=orthogonalEdgeStyle;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="-COGvhMiNyy0scrZBPlM-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-COGvhMiNyy0scrZBPlM-19" edge="1" parent="1" source="-COGvhMiNyy0scrZBPlM-8" style="edgeStyle=orthogonalEdgeStyle;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="-COGvhMiNyy0scrZBPlM-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
